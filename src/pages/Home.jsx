@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div className="flex-col mx-6 justify-center items-left w-auto sm:mr-[3rem] sm:w-auto lg:w-[39rem] rounded-[2px] p-4 mb-14 bg-gray-300 shadow-[0px_3px_3px_0_#99a1af]">
+        <div className="flex-col mx-6 justify-center items-left w-auto sm:ml-0 sm:mr-[2rem] sm:w-auto lg:w-[39rem] lg:ml-[2rem] rounded-[2px] p-4 mb-14 bg-gray-300 shadow-[0px_3px_3px_0_#99a1af]">
             <div className="flex flex-col gap-2 rounded-[2px] mb-4">
                 <h1 className="font-bold text-gray-50 bg-gray-900 p-2 rounded-[2px] shadow-[0px_3px_3px_0_#99a1af]">Bem Vindo ao iCode Box!</h1>
                 <p className="text-sm font-medium p-4 bg-gray-50 rounded-[2px] shadow-[0px_3px_3px_0_#99a1af]">Uma página feita com propósito: demonstrar minhas habilidades em desenvolvimento web e ao mesmo tempo compartilhar ferramentas úteis com a comunidade dev.</p>
