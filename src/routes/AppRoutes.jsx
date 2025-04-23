@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Header from "../components/Header.jsx";
 import Sidebar from "../components/Sidebar.jsx";
 import Home from "../pages/Home.jsx";
+import Footer from "../components/Footer.jsx";
 import CPFGeneratorPage from "../pages/generator/CPFGeneratorPage.jsx";
 import CNPJGeneratorPage from "../pages/generator/CNPJGeneratorPage.jsx";
 import CPFValidatorPage from "../pages/validator/CPFValidatorPage.jsx";
@@ -72,6 +73,7 @@ export default function AppRoutes() {
           </Routes>
         </main>
       </div>
+      <Footer />
     </>
   );
 }
