@@ -5,6 +5,7 @@ export default function Sidebar({ onLinkClick }) {
     const linkGenerator = [
         { link: "cpf-generator", title: "Gerador de CPF" },
         { link: "cnpj-generator", title: "Gerador de CNPJ" },
+        { link: "qrcode-generator", title: "Gerador de QR Code" }
     ];
 
     const linkValidator = [

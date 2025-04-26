@@ -108,22 +108,27 @@ export default function CNPJGeneratorPage() {
           Gerar CNPJ
         </button>
 
-        <div className="flex flex-col gap-2 mt-2 mb-2">
+        <div className="flex flex-col gap-2 mt-2 mb-2 justify-center items-left">
           <h1 className="font-semibold text-gray-950">CNPJ Gerado</h1>
-          <div className="flex justify-between items-center bg-gray-50 text-gray-800 font-semibold w-full py-2 px-3 rounded-[2px] border border-gray-200">
-            <span className="break-words">{newCNPJ}</span>
-            {newCNPJ && (
-              <div className="flex items-center gap-2">
-                <button type="button" onClick={handleCopy} className="cursor-pointer">
-                  <Copy className="w-5 h-5" />
-                </button>
-                {copied && (
-                  <span className="text-green-700 text-sm font-medium">Copiado!</span>
-                )}
+          <span
+              className={`flex justify-between items-center bg-gray-50 text-gray-800 font-semibold w-full py-1 px-2 h-auto rounded-[2px] border-1 border-gray-200
+                  ${newCNPJ ? newCNPJ ? "border-gray-800" : "" : "py-4 px-2"}`}>
+              {newCNPJ}
+              <div className="flex justify-center items-center gap-1 h-0">
+                  <button
+                      type="button"
+                      onClick={handleCopy}
+                      className={`cursor-pointer ${newCNPJ ? "opacity-100" : "opacity-0 p-0 h-0"}`}
+                  >
+                      <Copy className="w-5 h-5 transition-all duration-300 ease-in-out" />
+                  </button>
+                  <span className={`text-green-700 text-sm font-medium transition-all duration-300
+                      ${copied ? "opacity-100" : "opacity-0 hidden"}`}>
+                      Copiado!
+                  </span>
               </div>
-            )}
-          </div>
-        </div>
+          </span>
+      </div>
       </div>
     </div>
   );

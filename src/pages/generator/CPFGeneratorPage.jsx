@@ -105,7 +105,7 @@ export default function CPFGeneratorPage() {
                                 onClick={handleCopy}
                                 className={`cursor-pointer ${newCPF ? "opacity-100" : "opacity-0 p-0 h-0"}`}
                             >
-                                <Copy className={`w-5 h-5 transition-all duration-300 ease-in-out`} />
+                                <Copy className="w-5 h-5 transition-all duration-300 ease-in-out" />
                             </button>
                             <span className={`text-green-700 text-sm font-medium transition-all duration-300
                                 ${copied ? "opacity-100" : "opacity-0 hidden"}`}>

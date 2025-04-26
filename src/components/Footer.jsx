@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer class="bg-gray-950 text-gray-50 py-6 mt-10">
+        <footer class="bg-gray-950 text-gray-50 py-6 mt-10 relative bottom-0 w-full">
             <div class="container mx-auto px-8 flex flex-col md:flex-row justify-between items-center">
                 <div class="text-center md:text-left">
                     <h2 class="text-xl font-semibold">iCode Box</h2>

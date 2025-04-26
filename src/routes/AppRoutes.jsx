@@ -6,6 +6,7 @@ import Home from "../pages/Home.jsx";
 import Footer from "../components/Footer.jsx";
 import CPFGeneratorPage from "../pages/generator/CPFGeneratorPage.jsx";
 import CNPJGeneratorPage from "../pages/generator/CNPJGeneratorPage.jsx";
+import QRCodeGeneratorPage from "../pages/generator/QRCodeGeneratorPage.jsx";
 import CPFValidatorPage from "../pages/validator/CPFValidatorPage.jsx";
 import CNPJValidatorPage from "../pages/validator/CNPJValidatorPage.jsx";
 import "../App.css";
@@ -68,6 +69,7 @@ export default function AppRoutes() {
             <Route path="/" element={<Home />} />
             <Route path="/cpf-generator" element={<CPFGeneratorPage />} />
             <Route path="/cnpj-generator" element={<CNPJGeneratorPage />} />
+            <Route path="/qrcode-generator" element={<QRCodeGeneratorPage />} />
             <Route path="/cpf-validator" element={<CPFValidatorPage />} />
             <Route path="/cnpj-validator" element={<CNPJValidatorPage />} />
           </Routes>
