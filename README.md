@@ -8,7 +8,7 @@ Este projeto foi desenvolvido para aprimorar minhas habilidades como desenvolved
 - [x] Sidebar com navegação organizada entre ferramentas de Geradores e Validadores de dados.
 - [x] Ferramentas que validam e geram CPF, CNPJ com base em entradas do usuário. (Mais ferramentas em desenvolvimento)
 - [x] Layout responsivo para Desktop, Tablet e Mobile.
-- [ ] Botão para alternar entre os idiomas Português (Brasil) e Inglês. (Em desenvolvimento)
+- [x] Botão para alternar entre os idiomas Português (Brasil) e Inglês.
 
 ## Tecnologias Utilizadas
 - HTML: Linguagem de marcação para estruturação do conteúdo da web.
