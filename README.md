@@ -1,8 +1,17 @@
 # App - iCode Box
-Projeto criado com React + Vite com o objetivo de apresentar minhas habilidades práticas como desenvolvedor fullstack.
 
 ## Descrição
 Este projeto foi desenvolvido para aprimorar minhas habilidades como desenvolvedor fullstack, colocando em prática conceitos e tecnologias que domino.
+
+## O que é o iCode Box?
+O iCode Box é um projeto pessoal fictício que reúne ferramentas web úteis, como geradores e validadores, desenvolvidas com React, Tailwind CSS e boas práticas de código.
+Cada funcionalidade foi pensada para ser simples, útil e didática, ideal para quem quer usar ou aprender.
+
+## Objetivos:
+- Mostrar minhas habilidades técnicas com React, componentização, hooks, rotas, estilização com Tailwind CSS, e mais.
+- Aplicar princípios de Clean Code, organização de pastas, e manutenção de estados com clareza.
+- Ajudar iniciantes com códigos simples, legíveis e prontos para estudo.
+- Apresentar meu estilo de trabalho para recrutadores e empresas de tecnologia.
 
 ## Funcionalidades
 - [x] Sidebar com navegação organizada entre ferramentas de Geradores e Validadores de dados.
@@ -15,7 +24,6 @@ Este projeto foi desenvolvido para aprimorar minhas habilidades como desenvolved
 - CSS: Linguagem de estilo para o conteúdo da web.
 - TailwindCSS: Framework utilitário para estilização rápida e responsiva.
 - JavaScript (ES6+): Linguagem de programação utilizada para adicionar interatividade ao site.
-- Node.js: Ambiente de execução JavaScript do lado do servidor, utilizado para criar aplicações backend escaláveis e performáticas.
 - React: Biblioteca JavaScript para construção de interfaces de usuário.​
 - Vite: Ferramenta de build rápida e moderna para projetos front-end.
 - Lucide: Biblioteca de ícones open-source baseada no Feather Icons, utilizada para adicionar ícones leves e personalizáveis à interface da aplicação.
@@ -65,17 +73,17 @@ http://localhost:5173
 ```
 
 ## 📁 Estrutura de Pastas
-|---| public<br>
-|-----| favicon<br>
-|-----| screenshots<br>
-|-------| portuguese<br>
-|---| src<br>
-|-----| assets<br>
-|-----| components<br>
-|-----| pages<br>
-|-------| generator<br>
-|-------| validator<br>
-|-----| routes<br>
+📦public<br>
+ ┣ 📂favicon<br>
+ ┣ 📂screenshots<br>
+ ┃ ┗ 📂portuguese<br>
+ 📦src<br>
+ ┣ 📂assets<br>
+ ┣ 📂components<br>
+ ┣ 📂pages<br>
+ ┃ ┣ 📂generator<br>
+ ┃ ┣ 📂validator<br>
+ ┣ 📂routes<br>
 
 ## Deploy
 O projeto está disponível online:
@@ -92,29 +100,34 @@ MIT License. Você pode usar este projeto como referência para criar o seu pró
 ---
 
 # App - iCode Box
-Project created with React + Vite with the aim of presenting my practical skills as a fullstack developer.
 
 ## Description
 This project was developed to improve my skills as a fullstack developer, putting into practice concepts and technologies that I have mastered.
+
+## What is iCode Box?
+iCode Box is a fictitious personal project that brings together useful web tools, such as generators and validators, developed with React, Tailwind CSS and good coding practices.
+Each feature has been designed to be simple, useful and didactic, ideal for anyone who wants to use or learn.
+
+## Objectives:
+- Show my technical skills with React, componentization, hooks, routes, styling with Tailwind CSS, and more.
+- Apply Clean Code principles, folder organization, and state maintenance clearly.
+- Helping beginners with simple, readable and ready-to-study code.
+- Presenting my work style to recruiters and technology companies.
 
 ## Features
 - [x] Sidebar with organized navigation between Data Generator and Validator tools.
 - [x] Tools that validate and generate CPF, CNPJ based on user input. (More tools in development)
 - [x] Responsive layout for Desktop, Tablet and Mobile.
-- [ ] Button to switch between Portuguese (Brazil) and English languages. (In development)
+- [x] Button to switch between Portuguese (Brazil) and English languages.
 
 ## Technologies used
 - HTML: Markup language for structuring web content.
 - CSS: Style language for web content.
 - TailwindCSS: Framework utility for fast and responsive styling.
 - JavaScript (ES6+): Programming language used to add interactivity to the site.
-- Node.js: Server-side JavaScript execution environment used to create scalable and performant backend applications.
 - React: JavaScript library for building user interfaces.
 - Vite: Ferramenta de build rápida e moderna para projetos front-end.
 - Lucide: Open-source icon library based on Feather Icons, used to add lightweight, customizable icons to the application interface.
-
-## 📸 Screenshots
-(In development)
 
 ##  How to run the project locally
 ## Clone the repository
@@ -143,17 +156,18 @@ http://localhost:5173
 ```
 
 ## 📁 Folder Structure
-|---| public<br>
-|-----| favicon<br>
-|-----| screenshots<br>
-|-------| portuguese<br>
-|---| src<br>
-|-----| assets<br>
-|-----| components<br>
-|-----| pages<br>
-|-------| generator<br>
-|-------| validator<br>
-|-----| routes<br>
+📦public<br>
+ ┣ 📂favicon<br>
+ ┣ 📂screenshots<br>
+ ┃ ┗ 📂portuguese<br>
+ 📦src<br>
+ ┣ 📂assets<br>
+ ┣ 📂components<br>
+ ┣ 📂pages<br>
+ ┃ ┣ 📂generator<br>
+ ┃ ┣ 📂validator<br>
+ ┣ 📂routes<br>
+
 
 ## Deploy
 The project is available online:
